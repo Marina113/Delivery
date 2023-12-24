@@ -295,9 +295,40 @@ main {
   top: 14px;
 }
 
+.products-card__description--name {
+  margin: 0;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.products-card__description--text {
+  margin: 0;
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.products-card__description-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 30px;
+}
+
+.products-card__description-controls--price {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
 @media (max-width: 991px) {
-  .banner-item{
-background-image: none;
+  .banner-item {
+    background-image: none;
   }
 
   .banner-item--title {
